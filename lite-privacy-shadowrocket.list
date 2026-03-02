@@ -7,8 +7,7 @@
 # Compatible: Shadowrocket
 # ============================================================
 
-
-# --- Google 统计与广告 ---
+# — Google 统计与广告 —
 DOMAIN,pagead2.googlesyndication.com,REJECT
 DOMAIN,s.youtube.com,REJECT
 DOMAIN-SUFFIX,googlesyndication.com,REJECT
@@ -17,8 +16,7 @@ DOMAIN-SUFFIX,google-analytics.com,REJECT
 DOMAIN-SUFFIX,yt-analytics.com,REJECT
 DOMAIN-SUFFIX,youtube-analytics.com,REJECT
 
-
-# --- 国内通用统计 SDK ---
+# — 国内通用统计 SDK —
 DOMAIN-SUFFIX,umeng.com,REJECT
 DOMAIN-SUFFIX,umengcloud.com,REJECT
 DOMAIN-SUFFIX,growingio.com,REJECT
@@ -27,9 +25,8 @@ DOMAIN-SUFFIX,talkingdata.com,REJECT
 DOMAIN,hm.baidu.com,REJECT
 DOMAIN,mta.qq.com,REJECT
 
-
-# --- 字节系日志 / 追踪 ---
-DOMAIN-KEYWORD,volcengine,REJECT
+# — 字节系日志 / 追踪 —
+DOMAIN-KEYWORD,log.volcengine,REJECT
 DOMAIN-SUFFIX,analytics.toutiao.com,REJECT
 DOMAIN-SUFFIX,analytics.snssdk.com,REJECT
 DOMAIN-SUFFIX,log.snssdk.com,REJECT
@@ -37,51 +34,47 @@ DOMAIN-SUFFIX,ad.snssdk.com,REJECT
 DOMAIN-SUFFIX,bdp.byteact.com,REJECT
 DOMAIN-SUFFIX,vlog.tiktok.com,REJECT
 DOMAIN-SUFFIX,tiktok-global-log.com,REJECT
+# 补充字节系遗漏项
+DOMAIN-SUFFIX,log.byted.org,REJECT
+DOMAIN-SUFFIX,applog.byted.org,REJECT
+DOMAIN-SUFFIX,mon.byted.org,REJECT
 
+# — 抖音广告投放（若需玩游戏看广告，请注释以下两行）—
+DOMAIN-SUFFIX,pangle.io,REJECT
+DOMAIN-SUFFIX,iesopa.com,REJECT
 
-# --- 抖音广告投放 (如需游戏看广告请保持注释) ---
-# DOMAIN-SUFFIX,pangle.io,REJECT
-# DOMAIN-SUFFIX,iesopa.com,REJECT
+# — 腾讯系统计与广告（若需玩游戏看广告，请注释以下两行）—
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+DOMAIN-SUFFIX,e.qq.com,REJECT
 
+# — 百度广告联盟（若需玩游戏看广告，请注释以下一行）—
+DOMAIN-SUFFIX,union.baidu.com,REJECT
 
-# --- 腾讯系统计与广告 (如需游戏看广告请保持注释) ---
-# DOMAIN-SUFFIX,gdt.qq.com,REJECT
-# DOMAIN-SUFFIX,e.qq.com,REJECT
-
-
-# --- 百度广告联盟 (如需游戏看广告请保持注释) ---
-# DOMAIN-SUFFIX,union.baidu.com,REJECT
-
-
-# --- 新浪微博统计与广告 ---
+# — 新浪微博统计与广告 —
 DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
 DOMAIN-SUFFIX,sax.sina.com.cn,REJECT
 DOMAIN-SUFFIX,log.sina.com.cn,REJECT
 DOMAIN-SUFFIX,biz.weibo.com,REJECT
 
-
-# --- Bilibili / 直播类上报 ---
+# — Bilibili / 直播类上报 —
 DOMAIN-SUFFIX,log.bilibili.com,REJECT
 DOMAIN-SUFFIX,data.bilibili.com,REJECT
 DOMAIN-SUFFIX,ad.bilibili.com,REJECT
 DOMAIN-SUFFIX,log.huya.com,REJECT
 DOMAIN-SUFFIX,ylog.huya.com,REJECT
 
-
-# --- 网易与音乐类日志 ---
+# — 网易与音乐类日志 —
 DOMAIN,impservice.youdao.com,REJECT
 DOMAIN,impservice.dictapp.youdao.com,REJECT
 DOMAIN,mobilelog.kugou.com,REJECT
 
-
-# --- 移动归因 / 安装追踪 ---
+# — 移动归因 / 安装追踪 —
 DOMAIN-SUFFIX,adjust.com,REJECT
 DOMAIN-SUFFIX,appsflyer.com,REJECT
 DOMAIN-SUFFIX,flurry.com,REJECT
 DOMAIN-SUFFIX,kochava.com,REJECT
 
-
-# --- 国际测量 / 验证类 ---
+# — 国际测量 / 验证类 —
 DOMAIN-SUFFIX,comscore.com,REJECT
 DOMAIN-SUFFIX,quantserve.com,REJECT
 DOMAIN-SUFFIX,doubleverify.com,REJECT
