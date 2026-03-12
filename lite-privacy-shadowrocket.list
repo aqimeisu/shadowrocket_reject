@@ -1,9 +1,9 @@
 # ============================================================
 # Shadowrocket Lite Privacy Block Rules
-# Update: 2026-02
+# Update: 2026-03
 # Description:
 # 轻量隐私拦截规则
-# 适用场景：办公 / 视频 / 直播 / 国内游戏（可保留广告）
+# 适用场景：办公 / 视频 / 直播 / 国内游戏
 # Compatible: Shadowrocket
 # ============================================================
 
@@ -34,23 +34,32 @@ DOMAIN-SUFFIX,ad.snssdk.com,REJECT
 DOMAIN-SUFFIX,bdp.byteact.com,REJECT
 DOMAIN-SUFFIX,vlog.tiktok.com,REJECT
 DOMAIN-SUFFIX,tiktok-global-log.com,REJECT
-# 补充字节系遗漏项
 DOMAIN-SUFFIX,log.byted.org,REJECT
 DOMAIN-SUFFIX,applog.byted.org,REJECT
 DOMAIN-SUFFIX,mon.byted.org,REJECT
 
-# — 抖音广告投放（若需玩游戏看广告，请注释以下两行）—
+# — 字节广告 SDK（新增）—
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,REJECT
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,REJECT
+DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
+
+# — 广告聚合平台（新增）—
+DOMAIN-SUFFIX,toponadss.com,REJECT
+DOMAIN-SUFFIX,toponad.com,REJECT
+DOMAIN-SUFFIX,anythinktech.com,REJECT
+
+# — 抖音广告投放（若需游戏看广告可注释）—
 DOMAIN-SUFFIX,pangle.io,REJECT
 DOMAIN-SUFFIX,iesopa.com,REJECT
 
-# — 腾讯系统计与广告（若需玩游戏看广告，请注释以下两行）—
+# — 腾讯广告 —
 DOMAIN-SUFFIX,gdt.qq.com,REJECT
 DOMAIN-SUFFIX,e.qq.com,REJECT
 
-# — 百度广告联盟（若需玩游戏看广告，请注释以下一行）—
+# — 百度广告联盟 —
 DOMAIN-SUFFIX,union.baidu.com,REJECT
 
-# — 新浪微博统计与广告 —
+# — 新浪微博统计 —
 DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
 DOMAIN-SUFFIX,sax.sina.com.cn,REJECT
 DOMAIN-SUFFIX,log.sina.com.cn,REJECT
