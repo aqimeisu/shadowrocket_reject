@@ -55,6 +55,7 @@ DOMAIN-SUFFIX,iesopa.com,REJECT
 # — 腾讯广告 —
 DOMAIN-SUFFIX,gdt.qq.com,REJECT
 DOMAIN-SUFFIX,e.qq.com,REJECT
+DOMAIN-SUFFIX,adsmind.gdtimg.com
 
 # — 百度广告联盟 —
 DOMAIN-SUFFIX,union.baidu.com,REJECT
