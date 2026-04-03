@@ -102,3 +102,21 @@ DOMAIN-SUFFIX,quantserve.com,REJECT
 DOMAIN-SUFFIX,doubleverify.com,REJECT
 DOMAIN-SUFFIX,moatads.com,REJECT
 DOMAIN-SUFFIX,measurementapi.com,REJECT
+DOMAIN-SUFFIX,applvn.com,REJECT
+DOMAIN-SUFFIX,siftscience.com,REJECT
+DOMAIN-SUFFIX,safedk.com,REJECT
+DOMAIN-SUFFIX,split.io,REJECT
+DOMAIN-SUFFIX,mtgglobals.com,REJECT
+DOMAIN-SUFFIX,mintegral.net,REJECT
+DOMAIN-SUFFIX,dsp-api.moloco.com,REJECT
+DOMAIN-SUFFIX,adsmoloco.com,REJECT
+DOMAIN-SUFFIX,rayjump.com,REJECT
+DOMAIN-SUFFIX,vungle.com,REJECT
+# revenuecat.com 是应用内购收据验证SDK，异常可删除
+DOMAIN-SUFFIX,revenuecat.com,REJECT
+DOMAIN-KEYWORD,mediation.unity3d.com,REJECT
+DOMAIN-KEYWORD,iads.unity3d.com,REJECT
+DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
+DOMAIN-SUFFIX,uca.cloud.unity3d.com,REJECT
+DOMAIN-SUFFIX,cdp.cloud.unity3d.com,REJECT
+
